@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(179, 228, 231);
+}
+
 h1 { 
   color: purple;
   background-color: rgb(179, 228, 231);
@@ -32,11 +36,12 @@ h2 {
   margin: 3%;
 }
 
-div{
-  height: 200px;
-  width: 50%;
-  background-color: rgb(179, 228, 231);
+.container {
+  display: flex;
+  padding-left: 10px;
 }
+
+
 
 section { 
 color: purple;
@@ -45,6 +50,8 @@ font-size: 30px;
 text-align: center;
 margin: 0%;
 }
-.girl{
-  float: right;
+
+img{
+  padding-left: 75px;
+  float: center;
 }
